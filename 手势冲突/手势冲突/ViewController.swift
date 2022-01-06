@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     @objc func singleTap(_ g: UITapGestureRecognizer) {
-        self.perform(#selector(realSingleTap), with: self, afterDelay: 0.25)
+        self.perform(#selector(realSingleTap), with: g, afterDelay: 0.25)
     }
     
     @objc func realSingleTap(_ g: UITapGestureRecognizer) {
